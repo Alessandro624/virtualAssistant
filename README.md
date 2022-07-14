@@ -1,6 +1,8 @@
 # virtualAssistant
 This is an intelligent virtual assistant made with Python | Data-set in Italian language
 
+First you need to run 'training.py' then you can run 'virtualAssistant.py'
+
 - INSTALLING NUMPY
 
 pip install numpy
