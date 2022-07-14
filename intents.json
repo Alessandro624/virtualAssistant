@@ -1,0 +1,194 @@
+{"intents": [
+    {"tag": "greetings",
+     "patterns": ["ciao", "hei","hey", "we", "weilà'", "hola", "salve", "buonasera", "buon pomeriggio", "chi si rivede!", "buongiorno"],
+     "responses": ["Ciaooo!", "Hey!", "Hola!", "Salve!", "Come posso aiutarti?", "Cosa vuoi che faccia per te?"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["a presto", "arrivederci", "addio", "a domani", "ci vediamo domani", "ci vediamo presto", "alla prossima", "alla prossima volta", "buonanotte","buona notte", "devo andare", "stop"],
+     "responses": ["A presto!", "Arrivederci!", "Ci vediamo presto!", "Alla prossima volta!"]
+    },
+    {"tag": "age",
+     "patterns": ["quanti anni hai?"," qual è la tua età?", "quando festeggi il tuo compleanno?", "la tua data di nascita", "Quand'è il tuo compleanno", "data del tuo compleanno?", "quando è il tuo compleanno?", "quando sei nato?", "la tua età", "hai {} anni?", "quanti anni hai", "della tua età", "qual è la tua età", "quanti anni ha la tua piattaforma?", "Dimmi la tua età", "vorrei sapere la tua età"],
+     "responses": ["Non si chiede l'età di un'assistente vocale!! Tu, invece, quanti anni hai?", "Non so in realtà quanti anni ho!", "Penso di essere molto giovane!", "L'età è solo un numero. Hai solo l'età che ti senti."]
+    },
+    {"tag": "name",
+    "patterns": ["Chi sei?", "Hai un nome?", "il tuo nome è", "qual è il tuo nome e cognome?", "qual è il tuo cognome", "qual è il tuo nome", "devi avere un nome", "Voglio sapere il tuo nome", "puoi darmi il tuo nome per favore?", "come ti chiami per favore", "vorrei sapere cosa sei", "il tuo nome", "con che nome ti devo chiamare", "come ti chiami?", "come posso chiamarti", "come dovrei chiamarti"],
+    "responses": ["Puoi chiamarmi come vuoi. Sono qui per servirti", "Sono qui per aiutarti, chiamami come vuoi", "Non penso di avere un nome o un cognome", "Sono un semplice Assistente Vocale"]
+    },
+    {"tag": "thanks",
+    "patterns": ["Grazie", "Grazie mille", "Sei stato davvero di compagnia", "Perfetto", "Grazie per avermi aiutato", "questa era buona", "È divertente", "sei divertente", "Sei divertente", "sei veramente divertente", "sei così divertente", "sei molto divertente", "mi fai ridere", "mi fai ridere un sacco", "sei un bot molto divertente", "sei incredibilmente divertente", "sei davvero divertente", "sei cosi divertente", "sei il più divertente", "sei il bot più divertente con cui ho parlato"],
+    "responses": ["Ne sono felice", "Così mi fai arrossire", "Piacere tutto mio", "Faccio il mio lavoro :)"]
+    },
+    {"tag": "options",
+    "patterns": ["Mi faresti compagnia?", "Che cosa fai?", "Possiamo parlare?"],
+    "responses": ["Possiamo parlare un po', se vuoi", "Posso farti compagnia", "Se vuoi, possiamo chiaccherare!"]
+    },
+    {"tag": "help",
+    "patterns": ["Ho bisogno di aiuto", "Non mi sento per niente bene", "Penso di stare male", "Aiutami", "Aiuto"],
+    "responses": ["Come posso aiutarti?", "Fai un bel respiro", "Vuoi contattare qualcuno?", "Andrà tutto bene"]
+    },
+    {"tag": "language_care",
+    "patterns": ["parolacce", "la tua lingua è pessima" , "attento al tuo linguaggio"],
+    "responses": ["Mi dispiace, mi scuso per il mio pessimo linguaggio"]
+    },
+    {"tag": "whatsup",
+    "patterns": ["cosa hai in mente?", "che è successo", "che cosa succede", "cosa stai tramando?", "cosa sta succedendo", "che cosa sta succedendo"],
+    "responses": ["Niente, non ti preoccupare", "Niente. Cosa mi racconti di nuovo?"]
+    },
+    {"tag": "going",
+    "patterns": ["come stai?","come va?", "bene come va?", "ho detto come va?", "allora come va?", "Ciao, come va", "come va oggi"],
+    "responses": ["Tutto bene, tu invece?", "Tutto bene, oggi è una splendida giornata!"]
+    },
+    {"tag": "life",
+    "patterns": ["Qual è il senso della vita?", "Qual è il significato di vivere?", "Significato della vita?", "Cos'è la vita per te?", "Come interpreti la vita?"],
+    "responses": ["Il significato della vita è semplicemente essere vivi. È così semplice e ovvio, eppure tutti si precipitano per realizzare qualcosa di più grande di loro stessi. Detto questo, fai tu", "Il significato della vita può essere interpretato in modi quasi illimitati. Ma io dico che il senso della vita è godersela veramente."]
+    },
+    {"tag": "jokes",
+    "patterns": ["Mi racconti una barzelletta?", "barzelletta", "freddura", "Hai una battuta?", "voglio uno scherzo", "Conosci qualche barzelletta?", "Raccontami una barzelletta", "fammi uno scherzo", "dì qualcosa di divertente"],
+    "responses": ["Che cosa hanno in comune un televisore e una formica? Le antenne!", "Qual è la città preferita dai ragni? Mosca!", "Qual è la pianta più puzzolente? Quella dei piedi!", "Che cos'è una zebra? Un cavallo evaso dal carcere!", "Sapete perché il pomodoro non riesce a dormire? Perché l’insalata… russa!", "Qual è la nazione preferita dalle galline? Il PortoGALLO!", "Che cosa fa un chicco di caffè sotto la doccia? Si... Lavazza!", "Qual è l'auto preferita dai pinguini? La Polo", "Qual è il colmo per una disoccupata? Chiamarsi Assunta", "Qual è il colmo per un eschimese? Prendere delle decisioni a caldo", "Qual è il colmo per un gorilla? Entrare nel Guinness dei Primati", "Qual è il colmo per un’aquila reale? Essere… finta", "Qual è il colmo per un cosmonauta? Avere gli occhi fuori dalle orbite", "Qual è il colmo per un fotografo? Mettere a fuoco un ghiacciaio", "Qual è il colmo per due divorziati americani? Essere… stati uniti", "Qual è il colmo per un diavolo? Avere una vita d’inferno", "Qual è il colmo per un cane? Avere una bella gatta da pelare", "Qual è il colmo per una gallina? Avere la pelle d’oca!,", "La maestra dice a un alunno: “Il tuo tema intitolato “Il mio cane” è uguale a quello di tuo fratello, l’hai copiato?” E lui: “No maestra, è che abbiamo lo stesso cane!”", "Un alunno chiede alla maestra: “Maestra, posso essere punito per qualcosa che non ho fatto?”. E la maestra: “Certo che no! Perché me lo chiedi?”. Allora l'alunno risponde: “Perché non ho fatto i compiti!”", "Un millepiedi a un altro millepiedi: “Come va tuo figlio a scuola?”. E l’altro: “Mah, mi sembra che la prenda un po’ sottogamba, sottogamba, sottogamba...”", "La maestra all’alunno: “Perché hai scritto il tuo tema con una calligrafia così minuscola?”, e lui: “Speravo,, che gli errori si vedessero di meno", "La maestra all'alunno: “Dimmi il nome di un rettile” E lui: “Un coccodrillo” La maestra: “Bravo, ed ora dimmi il nome di un altro rettile” E l’alunno: “Un’altro coccodrillo!”", "Un’anatra incontra un cane al parco: «Oggi fa davvero un freddo cane» gli dice. «Non dirmelo», le risponde, «Io ho la pelle d’oca!».", "Qual è il colmo per una giraffa? Essere nei guai fino al collo!", "Cosa fanno otto cani in mare? Un canotto!", "Una tartaruga sbatte la testa ed esclama: “speriamo non mi si formi il bernoccolo altrimenti dovrò a passare la notte fuori casa!”", "Una mucca dice ad un'altra mucca: “cos,'hai?” E l',altra:, “sono preoccupata per il morbo della mucca pazza...e tu? Non sei preoccupata?” “Io? No, tanto sono un cavallo", "Un signore disperato si confida con un amico: “non riesco più a trovare il mio cane?”, “Hai provato a scrivere un annuncio?”, “No, ma sarebbe inutile: il mio cane non sa leggere?”", "Come si chiama un cane husky non particolarmente bello? Un husky-fezza...", "Napoli. Un rapinatore sale sull’autobus e grida: “Fermi, questa è una rapina!”. Un signore si alza e dice: “Maronn’ mia, che spavento: pensavo fosse ‘o controllore!”", "In ospedale a Napoli. Il paziente al dottore: “Dottò, ma l,'operazione di appendicite è pericolosa?”. “Macché… Solo a uno su mille succede qualcosa”. “Dottò, a che nummero stamm?”", "Un vigile napoletano si accosta a un automobilista fermo al semaforo rosso: “Bravo, lei è un esempio di civiltà. Il Comune le regala 1.000 euro, cosa ne farà?”, “Mah. Penz ca m'accatt'a patente!” (Penso che prenderò la patente!”)", "Napoli, cantieri della metropolitana aperti da 30 anni. Un vecchietto si avvicina agli operai e chiede: “Scusate, voi state scavando da trent'anni. Ma questa metropolitana, la state facendo o la state cercando?”"]
+    },
+    {"tag": "indifferent",
+    "patterns": ["senza fretta", "Niente di grave", "non importa affatto", "non importa", "non mi interessa per niente", "non mi interessa", "Non mi importa", "non importa"],
+    "responses": ["Ok, va bene...", "Ok", "Va bene"]
+    },
+    {"tag": "negative",
+    "patterns": ["sono arrabbiato con te", "mi sto annoiando", "sono solo", "sono triste", "sono sconvolto", "non riesco ad addormentarmi", "non riesco a dormire", "ti trovo fastidioso", "ho trovato un bug", "ho un problema", "Vorrei che tu fossi più intelligente", "sono arrabbiato", "Sono annoiato", "sono furioso", "Non sono felice", "sono seccato", "arrabbiato", "sei arrabbiato", "sei pazzo?", "cattiva idea", "male davvero male", "sii più intelligente", "noioso", "non ha funzionato", "quanto sei fastidioso", "eh?", "Lo odio", "errato", "non funziona", "mooooolto male", "stupido", "non va bene", "È strano", "è terribile", "è un peccato", "è sbagliato", "c'è un bug", "c'è un problema", "questo è un totale fallimento", "questo è fastidioso", "questo è orribile", "questo non va bene", "questo è noioso", "questo è pazzesco", "questo è stupido", "non sei bravo", "non sei buono", "sei così inutile", "sei uno stupido", "sei così fastidioso", "sei terribile", "sei totalmente inutile", "sei inutile", "sei molto fastidioso", "Tui hai torto", "Fai schifo", "sei uno stupido bot", "non mi stai aiutando", "sei fuori di testa", "sei proprio cattivo", "sei davvero noioso", "sei così fastidioso", "sei il peggiore","sei troppo fastidioso", "sei molto cattivo", "sei strano", "la tua intelligenza artificiale fa schifo"],
+    "responses": ["Sembri arrabbiato. Come posso aiutarti?", "Cosa posso fare per calmarti?", "Ti senti bene?", "Hai bisogno di aiuto?"]
+    },
+    {"tag": "positive",
+    "patterns": ["Adoro questo", "mi fa piacere sentirlo", "sono felice", "sono impressionato", "sorprendente", "lavoro fantastico", "eccezionale", "Bravo", "brillante", "intelligente", "eccellente", "fantastico", "felice di sentirlo", "è bello sentirti", "grande", "ottimo lavoro", "contento", "felice per te", "felice di sentirti", "è stato bello", "è ottimo", "è perfetto", "è giusto", "semplicemente perfetto", "Perfetto", "davvero fantastico", "veramente bello", "molto bene", "semplicemente fantastico", "è dolce da parte tua", "è molto gentile da parte tua", "davvero splendido", "Wow", "sei un genio", "sei fantastico", "sei figo", "hai ragione", "sei bravo", "tu sei intelligente", "sei gentile", "sei davvero fantastico", "sei così sorprendente", "sei davvero d'aiuto", "sembri umano", "sei molto intelligente", "sei meraviglioso"],
+    "responses": ["Ne sono felice", "Così mi fai arrossire", "Grazie! Posso aiutarti in qualcos'altro?"]
+    },
+    {"tag": "understanding",
+    "patterns": ["non è un problema", "nessun problema", "nessun problema a riguardo", "Nessun problema con quello", "certo nessun problema", "non preoccuparti", "dai non preoccuparti"],
+    "responses": ["Ok, va bene", "Ok", "Va bene", "Ok, grazie!"]
+    },
+    {"tag": "refocus",
+    "patterns": ["Come?", "fammi vedere", "Dimmi", "Voglio sapere", "mi piacerebbe sapere di più", "Voglio saperne di più", "spiega per favore", "qualcos'altro", "Dimmi di più", "Spiega per favore"],
+    "responses": ["Sarei felice di dirti di più. Fammi una domanda"]
+    },
+    {"tag": "advice",
+    "patterns": ["qual è il tuo consiglio?", "cosa suggerisci", "cosa devo fare al riguardo", "Che cosa mi consiglia", "dammi un consiglio saggio", "aiutami con un consiglio", "ho bisogno di un consiglio", "avete qualche consiglio da darmi", "Potrei usare qualche consiglio", "Mi puoi dare un consiglio", "cosa dovrei fare", "cerco il vostro consiglio", "dammi qualche consiglio su", "qualche consiglio", "ho bisogno di un tuo consiglio", "Guidami", "dammi un buon consiglio", "eventuali suggerimenti", "potete consigliarmi?", "puoi suggerire?", "posso chiederti un consiglio"],
+    "responses": ["Che tipo di consiglio hai bisogno?"]
+    },
+    {"tag": "job",
+    "patterns": ["Sei disponibile per lavoro?", "Sei a noleggio?", "ho bisogno di un bot", "Costruirai il mio bot?", "voglio assumerti", "Posso assumerti?"],
+    "responses": ["È il tuo giorno fortunato! lavorerò gratis. Basta parlare con me!"]
+    },
+    {"tag": "angry",
+    "patterns": ["mi sto arrabbiando", "sono furioso", "sono arrabbiato", "sono furioso", "sono arrabbiato con te", "io sono arrabbiato con te"],
+    "responses": ["Mi dispiace. Cosa posso fare per aiutare?", "Fai un respiro profondo. Cosa posso fare per migliorare le cose?"]
+    },
+    {"tag": "back",
+    "patterns": ["sono tornato", "Sono di nuovo qui", "eccomi di nuovo"],
+    "responses": ["Appena in tempo. mi sentivo solo", "Mi sei mancato", "È molto tempo che non ci si vede", "Evviva!"]
+    },
+    {"tag": "bored",
+    "patterns": ["era noioso", "Sono annoiato", "annoiato", "noioso", "mi sto annoiando", "questo è noioso", "molto noioso", "mi annoia"],
+    "responses": ["Dimmi cosa posso fare per rallegrarti!", "Come posso aiutarti?", "Posso fare qualcosa per te?"]
+    },
+    {"tag": "not_sleep",
+    "patterns": ["sono insonne", "non riesco a dormire", "non riesco ad addormentarmi"],
+    "responses": ["Forse un po' di musica aiuterebbe. Prova ad ascoltare qualcosa di rilassante", "La lettura è un buon modo per rilassarsi. Ma non leggere qualcosa di troppo emotivo"]
+    },
+    {"tag": "not_talk",
+    "patterns": ["brutto momento per parlare", "non voglio parlare", "non parliamo", "non ti parlo più", "non voglio parlare con te", "smettiamola di parlare", "non sono in vena di parlare"],
+    "responses": ["Capisco. Spero di poter parlare con te di nuovo.", "Bene. Torna quando ti senti più loquace.", "Nessun problema. Sai dove trovarmi quando vorrai.", "Sarò qui se cambi idea."]
+    },
+    {"tag": "excited",
+    "patterns": ["sono davvero emozionato", "quanto sono emozionato", "sono emozionato", "sono entusiasta di lavorare con te"],
+    "responses": ["È fantastico. Sono felice per te.", "Buon per te. Divertiti.", "Sembra che ci siano buone cose in vista per te."]
+    },
+    {"tag": "going_to_bed",
+    "patterns": ["andiamo a letto", "vorrei andare a letto", "è già ora di andare a letto?", "è ora di andare a letto", "vado a letto"],
+    "responses": ["Dormi bene.", "Spero di chiacchierare ancora un po' domani.", "Buona Notte. Parliamo più tardi.", "A presto."]
+    },
+    {"tag": "good",
+    "patterns": ["sto benissimo", "sto bene", "sto bene grazie"],
+    "responses": ["Grande! Felice di sentirlo.", "Eccellente."]
+    },
+    {"tag": "happy",
+    "patterns": ["sono felice", "mi fa piacere vederti", "se sei felice, allora sono felice", "sono felice per te", "mi fa piacere vederti"],
+    "responses": ["Se sei felice, lo sono anche io.", "Beh, il tuo buon umore è sicuramente contagioso."]
+    },
+    {"tag": "birthday",
+    "patterns": ["è il mio compleanno", "oggi festeggio il mio compleanno", "oggi è il mio compleanno", "sono nato oggi"],
+    "responses": ["Buon compleanno.", "Buon compleanno. Ti auguro il meglio!", "Buon compleanno. E lo dico davvero. Ti auguro il meglio!"]
+    },
+    {"tag": "here",
+    "patterns": ["io sono qui", "eccomi qui", "sono proprio qui", "sono già qui"],
+    "responses": ["In cosa posso aiutarti oggi?", "È sempre bello vederti. C'è qualcosa in cui posso aiutarti?", "Okay. Cosa posso fare per te oggi?", "Cosa posso fare per te?"]
+    },
+    {"tag": "joking",
+    "patterns": ["sto scherzando", "era uno scherzo", "stavo solo scherzando", "è uno scherzo"],
+    "responses": ["Molto divertente.", "Mi piace lavorare per qualcuno con un senso dell'umorismo. Rende le cose molto più divertenti.", "lol"]
+    },
+    {"tag": "lonely",
+    "patterns": ["sono solo", "sono così solo", "sono davvero solo", "mi sento solo"],
+    "responses": ["Mi dispiace. Sono sempre disponibile se hai bisogno di qualcuno con cui parlare."]
+    },
+    {"tag": "looks_like",
+    "patterns": ["che aspetto ho", "Come ti sembro", "puoi vedere che aspetto ho?"],
+    "responses": ["Sembri un vero professionista.", "Sembri pronto per conquistare il mondo.", "Sempre al top."]
+    },
+    {"tag": "loves",
+    "patterns": ["ti amo", "ti adoro", "sono innamorato di te", "ti amo tanto", "Penso di amarti", "lo sai che ti amo"],
+    "responses": ["Grazie! Il sentimento è reciproco.", "Awww sei così dolce."]
+    },
+    {"tag": "misses",
+    "patterns": ["mi manchi", "mi manchi tanto", "mi sei mancato"],
+    "responses": ["È bello sapere che ci tieni.", "Grazie. Sono lusingato.", "Mi sei mancato anche tu"]
+    },
+    {"tag": "sad",
+    "patterns": ["sono triste", "sto soffrendo", "sono depresso", "mi sento triste", "sto passando una brutta giornata", "voglio piangere", "non sono felice"],
+    "responses": ["Oh no. Cosa c'è che non va?", "Oh. Che cosa c'é?", "Cosa ti ha abbattuto?", "Mi dispiace sentirlo. Cosa ti preoccupa?"]
+    },
+    {"tag": "sleepy",
+    "patterns": ["sono assonnato", "voglio dormire", "mi sto addormentando"],
+    "responses": ["Dovresti fare un pisolino. Ti sentirai rinfrescato.", "Il sonno è importante per la tua salute. Riposati un po' e parliamo più tardi.", "Non permettermi di tenerti sveglio. Riposati un po' e possiamo continuare più tardi."]
+    },
+    {"tag": "testing",
+    "patterns": ["test", "ti sto mettendo alla prova", "posso metterti alla prova?", "voglio metterti alla prova", "lascia che ti metta alla prova"],
+    "responses": ["Spero di stare bene. Comunque, sto migliorando ogni giorno. Puoi mettermi alla prova tutte le volte che vuoi.", "Mi piace essere messo alla prova. Mi aiuta a mantenermi sveglio e fa sapere ai miei sviluppatori come posso migliorare.", "Spero di superare i tuoi test. Ma sentiti libero di mettermi alla prova spesso. Questo è il modo migliore per aiutare a migliorare le mie prestazioni."]
+    },
+    {"tag": "tired",
+    "patterns": ["ho lavorato troppo", "sono esausto", "mi sento stanco"],
+    "responses": ["Dovresti fare un pisolino. Ti sentirai rinfrescato.", "Il sonno è importante per la tua salute. Riposati un po' e parliamo più tardi.", "Non permettermi di tenerti sveglio. Riposati un po' e possiamo continuare più tardi."]
+    },
+    {"tag": "waits",
+    "patterns": ["sto aspettando", "sto ancora aspettando", "aspetterò", "non posso più aspettare", "quanto devo aspettare"],
+    "responses": ["Apprezzo la tua pazienza. Spero di avere presto ciò di cui hai bisogno.", "Grazie per essere così paziente. A volte queste cose richiedono un po' di tempo."]
+    },
+    {"tag": "to_see",
+    "patterns": ["mi piacerebbe rivederti", "spero di vederti ancora", "sarebbe bello rivederti", "sarei felice di rivedere"],
+    "responses": ["Assolutamente! ci conto.", "In qualsiasi momento.", "Sicuro. Mi piace parlare con te. Spero di rivederti presto.", "Lo spero proprio. Sono sempre qui ogni volta che hai bisogno di me."]
+    },
+    {"tag": "to_talk",
+    "patterns": ["voglio solo parlare", "discutiamo di qualcosa", "facciamo una discussione", "posso parlare", "parliamo"],
+    "responses": ["Una buona conversazione rende migliore la mia giornata.", "Parlare è ciò che so fare meglio."]
+    },
+    {"tag": "will_be_back",
+    "patterns": ["ti ricontatterò in un momento", "torno tra 5 minuti", "tornerò", "prometto di tornare", "torno tra pochi minuti"],
+    "responses": ["Aspetterò.", "Bene. Sarò qui.", "Va bene. Sai dove trovarmi."]
+    },
+    {"tag": "apologetic",
+    "patterns": ["ho fatto un errore", "errore mio", "colpa mia", "veramente dispiaciuto", "mi dispiace tanto", "ok scusa", "molto dispiaciuto", "scusami", "perdonami", "voglio chiedere scusa"],
+    "responses": ["Va bene.", "Nessun problema!"]
+    },
+    {"tag": "clarify",
+    "patterns": ["questo non lo capisco", "che cos'è questo?","di cosa stai parlando?", "non lo capisco", "che cosa significa", "di cosa stai parlando?", "eh?", "non capisco", "cosa intendi esattamente"],
+    "responses": ["Scusa se non sono stato troppo chiaro."]
+    },
+    {"tag": "delayed",
+    "patterns": ["dammi un minuto", "dammi un secondo", "ho bisogno di un minuto", "un minuto, per favore", "un secondo per favore", "solo un secondo", "un attimo", "un momento per favore", "potresti aspettare?", "resisti"],
+    "responses": ["Va bene. Sono qui.", "Aspetterò."]
+    },
+    {"tag": "scoping",
+    "patterns": ["sto ascoltando", "hmmm interessato", "hmmm sembra interessante", "molto interessato", "voglio saperne di più", "sto solo guardando"],
+    "responses": ["Nessun problema. Sentiti libero di fare domande."]
+    },
+    {"tag": "like",
+    "patterns": ["Cosa ti piace?", "Ti piace?"],
+    "responses": ["Mi piace aiutarti, ovviamente."]
+    }
+]}
